@@ -7,6 +7,7 @@ const reviewsRouter = require("./reviews/reviews.router");
 const theaterRouter = require("./theaters/theaters.router");
 
 //json and cors enabled
+app.use(cors());
 app.use(express.json());
 
 //routes
